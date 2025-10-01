@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #8bb9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+form#calcForm {
+    background: #a8cbff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 320px;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+
+input[type="number"],
+select {
+        padding: 10px 15px;
+        border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #02af19;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+#erro {
+    margin-top: 15px;
+    color: #e74c3c;
+    font-weight: 600;
+    text-align: center;
+}
+
+#resultado {
+    margin-top: 15px;
+    color: #27ae60;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
