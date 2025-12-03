@@ -1,119 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neves Biblioteca</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Neves Rent a Car - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-       
-       <h1> Biblioteca Neves  </h1>
-        <button id="menu-button" aria-label="Abrir menu">☰</button> 
-        
-       <nav>
-         <ul>
-            <li><a href="#home">Início</a></li>
-            <li><a href="#destaques">Destaques</a></li>
-            <li><a href="#famous">Categorias Famosas</a></li>
-         </ul>
-        </nav>
-       
-    </header>
-       <div id="side-menu" class="side-menu">
-      <button id="close-menu" aria-label="Fechar menu">&times;</button>
-         <nav>
-          <ul>
-             <div class="menu-item">
-                 <a href="index.html">Home</a>
-             </div>
+
+<header>
+    <h1>Neves Rent a Car</h1>
+    <button id="menu-button">☰</button>
+
+    <nav>
+        <ul>
              
+              <li><a href="locadora.html">Locação</a></li>
+            <li><a href="agendamentos.html">Agendamentos</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+        </ul>
+    </nav>
+</header>
 
-             <a href="#categorias" id="submenu-toggle" aria-expanded="false" aria-controls="submenu-list">Categorias ▼</a>
-                    <ul id="submenu-list" class="submenu" hidden>
-                        <li><a href="romance.html">Romance</a></li>
-                        <li><a href="ação.html">Ação</a></li>
-           </ul>
-           <div class="menu-item">
-                   <a href="sobre.html">Sobre</a>
-                </div>
-                <div class="menu-item">
-                   <a href="contato.html">Contato</a>
-                </div>
-         </nav>
-     </div>
+<div id="side-menu" class="side-menu"> 
+    <button id="close-menu">&times;</button>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="clientes.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</div>
+<div class="container">
 
-        <main>
-            <div class="container">
-                <section id="home" class="secao">
-                    <h2>Seja Bem-Vindo</h2>
-                    <p>Entre em um universo onde cada página é uma nova aventura. Sua próxima grande descoberta está a apenas uma estante de distância.
-                    <br>Bem-vindo à nossa biblioteca: Onde as histórias ganham vida e os sonhos encontram asas."
-                </section>
-                
- <section class="secao">
-                <h2>Encontre Seu Livro</h2>
+            <!-- HOME -->
+            <section id="home" class="secao">
+                <h2>Bem-vindo à Neves Rent a Car</h2>
+                <p>
+                    Aluguel de carros com conforto, segurança e os melhores preços da região.
+                    <br>Escolha seu veículo e viva sua próxima viagem com total liberdade!
+                </p>
+            </section>
+
+            <!-- BUSCA -->
+            <section class="secao">
+                <h2>Encontre Seu Carro Ideal</h2>
                 <div class="search-container">
                     <div class="search-box">
-                        <input type="text" id="search-input" placeholder="Digite o nome do livro...">
+                        <input type="text" id="search-input" placeholder="Digite o nome do carro...">
                         <button id="search-button">Pesquisar</button>
                     </div>
                 </div>
                 <div id="search-result" class="search-result"></div>
             </section>
 
+            <!-- DESTAQUES -->
+            <section id="destaques" class="secao">
+                <h2>Carros em Destaque</h2>
 
-          <section id="destaques" class="secao">
-  <h2>Relógios em Destaque</h2>
-  <div class="imagem-destaques">
-    <div class="destaque-card">
-      <img src="imgs/Destaque1.jpg" alt="Bíblia Sagrada">
-      <p><strong>Bíblia Sagrada</strong></p>
-      <p>Thomas Nelson Brasil<br></p>
-    </div>
-    <div class="destaque-card">
-      <img src="imgs/Destaque2.png" alt="Senhor dos Anéis: A Sociedade do Anel">
-      <p><strong>Senhor dos Anéis: A Sociedade do Anel</strong></p>
-      <p>J. R. R. Tolkien<br></p>
-    </div>
-    <div class="destaque-card">
-      <img src="imgs/Destaque3.png" alt="O Pequeno Príncipe">
-      <p><strong>O Pequeno Príncipe</strong></p>
-      <p>Antoine de Saint Exupéry<br></p>
-    </div>
-    <div class="destaque-card">
-      <img src="imgs/Destaque4.png" alt="Harry Potter e a Pedra Filosofal">
-      <p><strong>Harry Potter e a Pedra Filosofal</strong></p>
-      <p>J. K. Rowling<br></p>
-    </div>
-  </div>
-    </section>
-            <section id="famous" class="secao">
-                <h2>Quem Somos</h2>
-                <p>Para corações que aceleram com encontros inesperados e finais felizes que aquecem a alma. Descubra histórias de paixão, desejo e conexões que transcendem o tempo.</p>
-                 <a href="romance.html">
-                    <button>Descubra Aqui Seu Próximo Romance</button>
-                 </a>
-                <p>Para quem busca adrenalina em cada página e missões impossíveis que mantêm o coração acelerado até o último parágrafo. Entre em um mundo de perigo, coragem e reviravoltas explosivas.</p>
-                  <a href="ação.html">
-                <button>Clique Aqui e Mergulhe em novas Aventuras</button>
-                 </a>
+                <div class="imagem-destaques">
+                    <div class="destaque-card">
+                        <img src="imgs/carro1.jpg" alt="Carro Econômico">
+                        <p><strong>Fiat Mobi 1.0</strong></p>
+                        <p>Econômico e perfeito para o dia a dia.</p>
+                    </div>
+
+                    <div class="destaque-card">
+                        <img src="imgs/carro2.jpg" alt="SUV">
+                        <p><strong>Jeep Renegade</strong></p>
+                        <p>SUV confortável e ideal para viagens.</p>
+                    </div>
+
+                    <div class="destaque-card">
+                        <img src="imgs/carro3.jpg" alt="Sedan">
+                        <p><strong>Honda Civic</strong></p>
+                        <p>Conforto e desempenho premium.</p>
+                    </div>
+
+                    <div class="destaque-card">
+                        <img src="imgs/carro4.jpg" alt="Carro de Luxo">
+                        <p><strong>BMW Série 3</strong></p>
+                        <p>Luxo e performance de alto nível.</p>
+                    </div>
+                </div>
             </section>
-              </div>
-        </main>
-       
-        <footer>
- <p><strong>Número Para Contato:</strong>
-            <br><strong>15 9998-8888</strong>
-            <p>Av. Não Sei das Quantas; Rua Do Nunca; 777</p>
-      
-         <p>&copy; 2025 Biblioteca Neves</p>
-        </footer>
-        
-   
-    <script src="JS/script.js"></script>
-   
 
+            <!-- CATEGORIAS -->
+            <section id="famous" class="secao">
+                <h2>Categorias Mais Procuradas</h2>
+
+                <p>Carros compactos e econômicos, ideais para o dia a dia com baixo consumo.</p>
+                <a href="economicos.html">
+                    <button>Confira os Carros Econômicos</button>
+                </a>
+
+                <p>SUVs espaçosos e confortáveis, perfeitos para viagens em família.</p>
+                <a href="suvs.html">
+                    <button>Veja Nossos SUVs</button>
+                </a>
+
+                <p>Modelos luxuosos para quem busca estilo, conforto e potência.</p>
+                <a href="luxo.html">
+                    <button>Explore Carros de Luxo</button>
+                </a>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Telefone para Contato:</strong> <br> <strong>(15) 9998-8888</strong></p>
+        <p>Av. Mobilidade Urbana, 777 - Centro</p>
+        <p>&copy; 2025 Neves Rent a Car</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
 </body>
 </html>
