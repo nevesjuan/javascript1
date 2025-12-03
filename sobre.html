@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Biblioteca Neves</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1> Biblioteca Neves </h1>
+        <button id="menu-button" aria-label="Abrir menu">☰</button> 
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#destaques">Destaques</a></li>
+                <li><a href="index.html#famous">Categorias</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="side-menu" class="side-menu">
+        <button id="close-menu" aria-label="Fechar menu">&times;</button>
+        <nav>
+            <ul>
+                <div class="menu-item">
+                    <a href="index.html">Home</a>
+                </div>
+                
+                <a href="#categorias" id="submenu-toggle" aria-expanded="false" aria-controls="submenu-list">Categorias ▼</a>
+                <ul id="submenu-list" class="submenu" hidden>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="acao.html">Ação</a></li>
+                </ul>
+                
+                <div class="menu-item">
+                    <a href="sobre.html">Sobre</a>
+                </div>
+                <div class="menu-item">
+                    <a href="contato.html">Contato</a>
+                </div>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="secao">
+                <h2>Sobre a Santos Library</h2>
+                
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <h3>Nossa História</h3>
+                        <p>Fundada em 1985, a Santos Library nasceu do sonho de tornar a leitura acessível a todos. Começamos como uma pequena biblioteca comunitária e hoje somos referência em diversidade literária na região.</p>
+                        
+                        <h3>Missão</h3>
+                        <p>Promover o acesso ao conhecimento e fomentar o hábito da leitura através de um acervo diversificado e um ambiente acolhedor para todos os amantes de livros.</p>
+                        
+                        <h3>Visão</h3>
+                        <p>Ser a biblioteca mais completa e moderna da região, oferecendo não apenas livros, mas um espaço de convivência e aprendizado contínuo.</p>
+                        
+                        <h3>Valores</h3>
+                        <ul class="valores-lista">
+                            <li>✅ Acesso democrático à informação</li>
+                            <li>✅ Respeito à diversidade literária</li>
+                            <li>✅ Inovação constante</li>
+                            <li>✅ Compromisso com a comunidade</li>
+                            <li>✅ Preservação do conhecimento</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sobre-estatisticas">
+                        <div class="estatistica-card">
+                            <h4>+50.000</h4>
+                            <p>Livros no acervo</p>
+                        </div>
+                        <div class="estatistica-card">
+                            <h4>35 anos</h4>
+                            <p>Servindo a comunidade</p>
+                        </div>
+                        <div class="estatistica-card">
+                            <h4>+15.000</h4>
+                            <p>Leitores cadastrados</p>
+                        </div>
+                        <div class="estatistica-card">
+                            <h4>25</h4>
+                            <p>Gêneros literários</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <p><strong>Número Para Contato:</strong>
+        <br><strong>15 9998-8888</strong>
+        <p>Av. Não Sei das Quantas; Rua Do Nunca; 777</p>
+        <p>&copy; 2025 La Santos</p>
+    </footer>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>
